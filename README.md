@@ -28,7 +28,7 @@ Example Playbook
 - hosts: all
   become: true
   roles:
-    - { role: redmage-console, console_enviroment: local }
+    - { role: galaxy-console, console_enviroment: local }
 ```
 
 License
